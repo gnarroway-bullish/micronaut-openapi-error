@@ -23,4 +23,4 @@ The `@JsonValue` and `@JsonCreator` annotations should be respected and not caus
 ### Workaround
 
 - annotating each enum with `@JsonProperty` seems to work
-- this can be validated by adjusting HelloController to return `COSEAlgorithmIdentifierr` (with 2 suffix)
+- this can be validated by adjusting HelloController to return `COSEAlgorithmIdentifier2` (with 2 suffix)
